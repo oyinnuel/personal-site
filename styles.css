@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --superhero: 'Bangers', cursive;
     --fantasy: 'MedievalSharp', cursive;
     --space: 'Orbitron', sans-serif;
@@ -32,9 +32,9 @@ body, html {
 }
 
 img {
-    width: 30%;
+/*     width: 30%;
     height: 30%;
-    max-height: 20px;
+    max-height: 20px; */
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
 }
@@ -76,4 +76,4 @@ button {
     font-family: var(--font);
     width: 160px;
 }
- */
+
