@@ -25,16 +25,19 @@
 
 body, html {
     margin: 0 auto;
+    display: flex;
     padding: 10px;
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
 }
 
+h1 {
+    max-width: 60%;
+}
+
 img {
-    width: 30%;
-    height: 30%;
-/*     max-height: 50px; */
+    height: 250px;
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
 }
