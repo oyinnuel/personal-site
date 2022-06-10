@@ -34,7 +34,7 @@ body, html {
 img {
     width: 30%;
     height: 30%;
-    max-height: 20px;
+    max-height: 50px;
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
 }
